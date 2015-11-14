@@ -1,5 +1,5 @@
 {
-  "name": "tconv",
+  "name": "tconv-server",
   "version": "1.0.0",
   "description": "Conversation via terminal/command prompt",
   "main": "server.js",

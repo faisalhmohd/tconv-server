@@ -4,7 +4,7 @@ var io = require('socket.io')(http);
 
 var port = 3000;
 
-app.get('/chat', function(req, res){
+app.get('/', function(req, res){
   res.send('Routed properly');
 });
 
@@ -26,6 +26,6 @@ io.on('connection', function(socket){
   });
 });
 
-app.listen(port, function() {
+http.listen(port, function() {
     console.log('The server has been initiated at ' + port );
 });
