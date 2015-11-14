@@ -1,0 +1,23 @@
+{
+  "name": "tconv",
+  "version": "1.0.0",
+  "description": "Conversation via terminal/command prompt",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chat",
+    "terminal",
+    "convo",
+    "socket.io",
+    "command",
+    "prompt"
+  ],
+  "author": "Mohammad Faisal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2",
+    "socket.io": "^1.3.7"
+  }
+}
